@@ -1,0 +1,37 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    /*  */
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+}
+.header a{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    /* letter-spacing: 0.005em; */
+    margin-left: 36px;
+
+}
+.header a:hover{
+    color: #FF9900;
+}
+.logout-button {
+    border: none;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    background-color: transparent;
+    color: #FFFFFF;;
+  }
+  
+  .logout-button:hover {
+    color: #FF9900;
+  }

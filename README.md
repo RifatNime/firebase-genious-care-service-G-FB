@@ -1,13 +1,16 @@
-# firebase-genious-care-service-G-FB login(https://genius-car-servise.web.app/).
+# firebase-genius-care-service-G-FB login(https://genius-car-servise.web.app/).
 
 
-## Login SignUp Shipment
+## Login SignUp Navigate-Shipment
+## firebase.init file 
+* (Adding Custom Environment Variables)https://create-react-app.dev/docs/adding-custom-environment-variables
+##
 In the project directory, you can run:
 
 ### `firebase-init, RequireAuth Navigation `
 
 
-### `Fairbase hosting`
+### `Firebase hosting`
 
 
 ### `form design and their functions based on` React

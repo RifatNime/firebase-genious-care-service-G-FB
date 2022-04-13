@@ -146,6 +146,7 @@ const SignUp = () => {
                     <p>or</p>
                     <div className='line-right' />
                 </div>
+            
                 <div className='input-wrapper'>
                     <button onClick={handleGoogleSignIn}  className='google-auth'>
                         <img src='https://www.netier.com.au/wp-content/uploads/2018/07/Google_-G-_Logo.svg_.png' style={{ width: '38px' }} alt='' />

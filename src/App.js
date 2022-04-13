@@ -7,8 +7,10 @@ import Home from './Pages/MHome/Home/Home';
 import Inventory from './Pages/MHome/Inventory/Inventory';
 import Shipment from './Pages/MHome/Shipment/Shipment';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
+import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 import SignUp from './Pages/SignUp/SignUp';
 
 
@@ -21,6 +23,7 @@ function App() {
 
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/experts' element={
           /* ----------------------------- 2 no step ----------------------------------------*/
           <RequireAuth>
@@ -37,6 +40,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/*" element={<NotFound></NotFound>} />
 
       </Routes>
       <Footer></Footer>

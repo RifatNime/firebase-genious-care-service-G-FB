@@ -1,3 +1,11 @@
+.App1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background-color: 	#F5F5DC;
+}
+
 .App {
   text-align: center;
 }
